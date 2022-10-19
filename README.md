@@ -5,4 +5,4 @@
 - Ace Baugh
 
 ### Description
-This Is the repository for Bellevue University Web Development Cohort WEB 335 Course. Assignments for the course are available here.
+This is the repository for Bellevue University Web Development Cohort WEB 335 Course. Assignments for the course are available here.
