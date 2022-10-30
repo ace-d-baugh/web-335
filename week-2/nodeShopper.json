@@ -1,0 +1,51 @@
+{
+	"customer": {
+		"_id": 1,
+		"firstName": "Sam",
+		"lastName": "Reddington",
+		"dateOfBirth": "1980-01-01",
+		"username": "shooter713",
+		"invoice": [
+			{
+				"_id": 1,
+				"createDate": "04/20/2022",
+				"shipDate": "04/24/2022",
+				"subtotal": 62.50,
+				"lineItem": [
+					{
+						"_id": 1,
+						"productName": "100 N95 Masks",
+						"price": 23.75,
+						"qty": 1
+					},
+					{
+						"_id": 2,
+						"productName": "Hand sanitizer",
+						"price": 7.75,
+						"qty": 5
+					}
+				]
+			},
+			{
+				"_id": 2,
+				"createDate": "07/3/2022",
+				"shipDate": "07/10/2022",
+				"subtotal": 80.25,
+				"lineItem": [
+					{
+						"_id": 1,
+						"productName": "Fertilizer",
+						"price": 40.25,
+						"qty": 1
+					},
+					{
+						"_id": 2,
+						"productName": "Gasoline 5 gallons",
+						"price": 10.0,
+						"qty": 4
+					}
+				]
+			}
+		]
+	}
+}

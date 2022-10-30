@@ -1,0 +1,31 @@
+{
+	"student": {
+		"studentId": 1,
+		"firstName": "Timmy",
+		"lastName": "Thompson",
+		"enrollment": [
+			{
+				"term": 2,
+				"gpa": 2.7,
+				"startDate": "03/14/2022",
+				"endDate": "05/25/2022",
+				"course": [
+					{
+						"courseId": 200,
+						"description": "Advanced Basket Weaving",
+						"instructor": "Harkness Philips",
+						"score": 91,
+						"letterGrade": "A-"
+					},
+					{
+						"courseId": 350,
+						"description": "Intro to Bug Bites",
+						"instructor": "Trinity Smith",
+						"score": 74,
+						"letterGrade": "D+"
+					}
+				]
+			}
+		]
+	}
+}
