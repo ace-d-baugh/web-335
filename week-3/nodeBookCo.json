@@ -1,0 +1,47 @@
+[
+	{
+		"id": "1",
+		"name": "Dancing Ink",
+		"code": 993622,
+		"address": "13 Mulberry Street",
+		"book": [
+			{
+				"id": "1",
+				"isbn": "978-1-60309-057-5",
+				"name": "The Book of the Dead",
+				"price": 19.99,
+				"author": [
+					{
+						"id": "1",
+						"firstName": "George",
+						"lastName": "R. R. Martin",
+						"phone": "526-666-2019",
+						"email": "martin.george@typingaway.com"
+					}
+				]
+			},
+			{
+				"id": "2",
+				"isbn": "978-1-60309-450-4",
+				"name": "The Book of the Living",
+				"price": 29.99,
+				"author": [
+					{
+						"id": "2",
+						"firstName": "Georgina",
+						"lastName": "R. R. Martin",
+						"phone": "526-777-2023",
+						"email": "martin.georgina@typingaway.com"
+					},
+					{
+						"id": "1",
+						"firstName": "George",
+						"lastName": "R. R. Martin",
+						"phone": "526-666-2019",
+						"email": "martin.george@typingaway.com"
+					}
+				]
+			}
+		]
+	}
+]

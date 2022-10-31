@@ -1,0 +1,44 @@
+[
+	{
+		"id": "1",
+		"firstName": "Rannveig",
+		"lastName": "Johandoter",
+		"role": [
+			{
+				"id": "1",
+				"roleType": "admin",
+				"permission": [
+					{
+						"id": "3",
+						"permission": "update"
+					},
+					{
+						"id": "4",
+						"permission": "delete"
+					}
+
+				]
+			},
+			{
+				"id": "2",
+				"roleType": "author",
+				"permission": [
+					{
+						"id": "2",
+						"permission": "write"
+					}
+				]
+			},
+         {
+				"id": "3",
+				"roleType": "reader",
+				"permission": [
+					{
+						"id": "1",
+						"permission": "read"
+					}
+				]
+			}
+		]
+	}
+]
