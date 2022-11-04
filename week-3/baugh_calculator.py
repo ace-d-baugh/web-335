@@ -31,11 +31,10 @@ divide2 = 2
 multiply1 = 10
 multiply2 = 2
 
-# printing test variables to the screen in easy to read format
-#concatenating strings and variables
-print(str(add1) + " + " + str(add2) + " is " + str(add(add1, add2)) + ".")
-print(str(subtract1) + " - " + str(subtract2) + " is " + str(subtract(subtract1, subtract2)) + ".")
-print(str(divide1) + " / " + str(divide2) + " is " + str(divide(divide1, divide2)) + ".")
-print(str(multiply1) + " * " + str(multiply2) + " is " + str(multiply(multiply1, multiply2)) + ".")
+# creating an output variable to store the results of the functions
+output = str(add1) + " + " + str(add2) + " is " + str(add(add1, add2)) + ".\n" + str(subtract1) + " - " + str(subtract2) + " is " + str(subtract(subtract1, subtract2)) + ".\n" + str(divide1) + " / " + str(divide2) + " is " + str(divide(divide1, divide2)) + ".\n" + str(multiply1) + " * " + str(multiply2) + " is " + str(multiply(multiply1, multiply2)) + "."
+
+# printing the output variable
+print(output)
 
 
