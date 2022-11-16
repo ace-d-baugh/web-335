@@ -22,9 +22,10 @@ days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sun
 
 # for loop to print each day
 for day in days:
-   # if statement to print if day is a weekend: Saturday or Sunday is a time for hobby else print it is a work day
+   # if statement to print if day is a weekend: Saturday or Sunday is a time for hobby or print it is a work day
    if day == "Saturday" or day == "Sunday":
       # concatenate string with hobby
       print(day + " is a day off: I am free to enjoy " + choose_hobby() + ".")
    else:
-      print(day + " is a work day: I am busy with work.")
+      # concatenate string with hobby
+      print(day + " is a work day: I am busy with work. No time for " + choose_hobby() + ".")
