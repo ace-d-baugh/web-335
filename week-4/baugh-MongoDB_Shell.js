@@ -3,9 +3,9 @@
    Author: Ace Baugh
    Date: 09 November 2022
    Description: MongoDB Shell Scripts for the users collection.
- */ 
+ */
 
-   // Connection String
+// Connection String
 // mongosh "mongodb+srv://buwebdev-cluster-1.9wmv0d7.mongodb.net/web335DB" --apiVersion 1 --username web335_user
 
 //Loads the users file
