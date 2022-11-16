@@ -6,7 +6,7 @@ Description: Exercise 5.3 - Python Conditionals, Lists, and Loops
 """
 
 # List of hobbies
-hobbies = ["photography", "origami", "cooking", "camping", "park hopping", "crocheting"]
+hobbies = ["photography", "origami", "cooking", "camping", "park hopping", "crocheting", "3D printing", "watching movies", "magic tricks", "coding"]
 
 # function to choose a random hobby
 def choose_hobby():
