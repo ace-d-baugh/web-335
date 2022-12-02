@@ -1,5 +1,5 @@
 """
-Title: baugh_hobbies.py
+Title: baugh_usersp1.py
 Author: Ace Baugh
 Date: 11/21/22
 Description: Exercise 6.3 - Python with MongoDB Part I
