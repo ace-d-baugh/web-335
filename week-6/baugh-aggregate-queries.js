@@ -26,29 +26,39 @@ db.students.deleteOne({lastName: 'Baugh'});
 db.students.findOne({lastName: 'Baugh'});
 
 // Show all students by house name using $lookup (#6)
-db.students.aggregate({ $lookup: {
-                        from: 'houses', 
-                        localField: 'houseId', 
-                        foreignField: 'houseId', 
-                        as: 'house'} 
-                     });
+db.houses.aggregate([
+	{
+		$lookup: {
+			from: 'students',
+			localField: 'houseId',
+			foreignField: 'houseId',
+			as: 'students',
+		},
+	},
+]);
 
 // Show all students of Gryffindor house using $lookup and $match (#7)
-db.students.aggregate({ $lookup: {
-                        from: 'houses', 
-                        localField: 'houseId', 
-                        foreignField: 'houseId', 
-                        as: 'house'} 
-                     }, { 
-                        $match: { 'house.houseId': 'h1007' } 
-                     });
+db.houses.aggregate([
+	{ $match: { founder: 'Godric Gryffindor' } },
+	{
+		$lookup: {
+			from: 'students',
+			localField: 'houseId',
+			foreignField: 'houseId',
+			as: 'Gryffindor',
+		},
+	},
+]);
 
 // Show all students with Eagle mascot using $lookup and $match (#8)
-db.students.aggregate({ $lookup: {
-                        from: 'houses', 
-                        localField: 'houseId', 
-                        foreignField: 'houseId', 
-                        as: 'house'} 
-                     }, { 
-                        $match: { 'house.mascot': 'Eagle' } 
-                     });
+db.houses.aggregate([
+	{ $match: { mascot: 'Eagle' } },
+	{
+		$lookup: {
+			from: 'students',
+			localField: 'houseId',
+			foreignField: 'houseId',
+			as: 'Ravenclaw',
+		},
+	},
+]);
